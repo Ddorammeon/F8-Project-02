@@ -60,6 +60,10 @@ a {
 /*================= Header =================*/
 .header {
     background: #fffcf4;
+    padding-top: 3px;
+    position: sticky;
+    top: -3px;
+    z-index: 1;
 }
 
 .header .body {
@@ -70,7 +74,7 @@ a {
 
 .navbar {
     margin-left: auto;
-    margin-top: 15px;
+    padding: 12px 0;
 }
 
 .navbar ul {
